@@ -5,8 +5,8 @@ import movimientos.*
 import configuracion.*
 
 object nivel {
-	const ancho = 20
-	const alto = 10
+	const ancho = 25
+	const alto = 15
 	
 	method inicio(){
 		game.width(ancho)
@@ -14,6 +14,8 @@ object nivel {
 		game.boardGround("city.jpg")
 		game.addVisual(roboto)
 		movimiento.movimientosDePersonaje_(roboto)
+		
+		game.addVisual(zombie)
 		
 	}
 }
