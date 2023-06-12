@@ -1,7 +1,6 @@
 import wollok.game.*
 import zombies.*
 import character.*
-import movimientos.*
 import inicio.*
 
 program zombieCity {
